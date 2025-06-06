@@ -16,7 +16,7 @@ def load_model():
     """加载并缓存模型"""
     # Windows 路径兼容性处理
     temp = None
-    if sys.platform == "win32":
+    if sys.platform == "win64":
         # temp = pathlib.PosixPath
         pathlib.PosixPath = pathlib.WindowsPath
     
