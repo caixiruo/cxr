@@ -1,6 +1,5 @@
 streamlit
 fastai==2.7.17
-
 torch==2.7.0
 torchvision==0.22.0
 pillow==10.4.0 
