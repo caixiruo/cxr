@@ -7,7 +7,8 @@ if sys.version_info >= (3, 13):
     st.stop()
 import subprocess
 
-
+# 使用 subprocess 模块来执行 pip 安装命令
+subprocess.run([sys.executable, '-m', 'pip', 'install', 'fasttransformers'], check=True)
 
 from fastai.vision.all import *
 import pathlib
